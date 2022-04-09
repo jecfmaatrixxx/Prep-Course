@@ -67,7 +67,7 @@ describe('multiplicarNumeroDesconocidoPorCinco(mysteryNumberObject)', function()
   });
 });
 
-describe('eliminarPropiedad(object, property)', function() {
+describe.only('eliminarPropiedad(object, property)', function() {
   it('should delete the property from the object', function() {
     const updatedObject = {
       x: 1,
